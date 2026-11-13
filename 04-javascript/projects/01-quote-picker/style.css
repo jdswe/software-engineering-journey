@@ -1,0 +1,27 @@
+:root {
+  --color-primary: #9a7e3b;
+  --color-text: #d2cf9a;
+  --color-bg: #28301c;
+  --color-surface: #323d25;
+  --space-md: 16px;
+  --radius: 16px;
+  --font-main: "Nerko One", cursive;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-main);
+}
+
+main {
+  background-color: var(--color-surface);
+  max-width: 480px;
+  margin:0 auto;
+  padding: var(--space-md);
+  border-radius: var(--radius);
+}
+
+h1 {
+  color: var(--color-primary);
+}
