@@ -10,6 +10,7 @@ I am learning software engineering step by step, building small projects to prac
 
 - `02-html/lessons/01-intro-html/`: my first HTML page about HTML itself.
 - `02-html/projects/01-mi-entorno-de-desarrollo/`: a page that documents how I set up my development environment on Ubuntu.
+- `professional-portfolio/`: my portfolio website, built with HTML and CSS.
 
 ## How to view a page
 
@@ -19,4 +20,4 @@ I am learning software engineering step by step, building small projects to prac
 
 ## Status
 
-Currently learning HTML. Next topics: Git, CSS, and JavaScript.
+Currently learning CSS. Next topics: responsive design and JavaScript.
