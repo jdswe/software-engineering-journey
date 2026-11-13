@@ -1,0 +1,57 @@
+:root {
+  --color-primary: #2563eb;
+  --color-text: #1c2233;
+  --color-bg: #f5f7fb;
+  --color-surface: #ffffff;
+  --color-border: #e2e6f0;
+  --color-primary-soft: #e8efff;
+  --color-hover: #1d4ed8;
+}
+
+body {
+  font-family: "Poppins", system-ui, sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+.card {
+  max-width: 360px;
+  margin: 60px auto;
+  padding: 32px;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  text-align: center;
+}
+
+.chips {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+}
+
+.chips li {
+  padding: 4px 12px;
+  background-color: var(--color-primary-soft);
+  color: var(--color-primary);
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 24px;
+  background-color: var(--color-primary);
+  color: var(--color-surface);
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: var(--color-hover);
+}
