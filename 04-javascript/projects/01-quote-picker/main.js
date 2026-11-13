@@ -1,4 +1,5 @@
 const quote = document.querySelector("#quote");
+const counter = document.querySelector("#counter");
 const quotes = [
   "Every day is a new beginning.",
   "Believe in yourself.",
@@ -376,5 +377,6 @@ nextButton.addEventListener("click", function () {
   if (index === quotes.length) {
     index = 0;
   }
+  counter.textContent = "Quote " + (index + 1) + " of " + quotes.length;
   quote.textContent = quotes[index];
 });
