@@ -24,3 +24,16 @@ if (score >= 90) {
 } else {
   console.log("Keep practicing");
 }
+
+function grade(score) {
+  if (score >= 90) {
+    return "Excellent";
+  } else if (score >= 70) {
+    return "Good";
+  } else {
+    return "Keep practicing";
+  }
+}
+console.log(grade(95));
+console.log(grade(75));
+console.log(grade(30));
