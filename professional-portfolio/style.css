@@ -1,0 +1,47 @@
+h1 {
+  color: #2563eb;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #f5f7fb;
+  color: #1c2233;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2563eb;
+  margin-right: 16px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h2 {
+  border-bottom: 2px solid #2563eb;
+  padding-bottom: 8px;
+}
+
+header {
+  background-color: white;
+  padding: 16px 20px;
+  border-bottom: 1px solid #e2e6f0;
+}
+
+.chips {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.chips li {
+  background-color: #e8efff;
+  color: #2563eb;
+  padding: 4px 12px;
+  border-radius: 999px;
+}

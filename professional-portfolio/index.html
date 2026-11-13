@@ -8,19 +8,22 @@
       content="Portfolio of Jose David Carranza Angarita, software engineering student learning full stack development."
     />
     <title>Jose David Carranza | Software Engineering Student</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
-      <a href="#">JD</a>
-      <h1>Jose David Carranza Angarita</h1>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <div class="container">
+        <a href="#">JD</a>
+        <h1>Jose David Carranza Angarita</h1>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </header>
-    <main>
+    <main class="container">
       <section id="about">
         <h2>About me</h2>
         <p>
@@ -42,14 +45,14 @@
       <section id="skills">
         <h2>Skills</h2>
         <h3>Tools I use</h3>
-        <ul>
+        <ul class="chips">
           <li>HTML</li>
           <li>Git</li>
           <li>GitHub</li>
           <li>VS Code</li>
         </ul>
         <h3>Currently learning</h3>
-        <ul>
+        <ul class="chips">
           <li>Java</li>
           <li>MySQL</li>
           <li>MVC</li>
@@ -58,15 +61,22 @@
       <section id="projects">
         <h2>Projects</h2>
         <h3>My Development Environment</h3>
-        <p>A web page that describes my development environment, built with HTML.</p>
+        <p>
+          A web page that describes my development environment, built with HTML.
+        </p>
       </section>
       <section id="contact">
         <h2>Contact</h2>
         <ul>
           <li><a href="https://github.com/jdswe">GitHub</a></li>
-          <li><a href="mailto:ing.josedavidcarranzaangarita@gmail.com">Email</a></li>
+          <li>
+            <a href="mailto:ing.josedavidcarranzaangarita@gmail.com">Email</a>
+          </li>
         </ul>
       </section>
     </main>
+    <footer>
+      <p>&copy; 2026 Jose David Carranza Angarita</p>
+    </footer>
   </body>
 </html>
