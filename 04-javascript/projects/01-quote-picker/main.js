@@ -367,16 +367,22 @@ const quotes = [
   "Learn it, build it, then explain it.",
   "Finish what you start, one line at a time.",
 ];
-quote.textContent = quotes[0];
 
 const nextButton = document.querySelector("#next-btn");
 let index = 0;
+
+// Show the current quote and its counter
+function showQuote() {
+  counter.textContent = "Quote " + (index + 1) + " of " + quotes.length;
+  quote.textContent = quotes[index];
+}
+
+showQuote();
 
 nextButton.addEventListener("click", function () {
   index = index + 1;
   if (index === quotes.length) {
     index = 0;
   }
-  counter.textContent = "Quote " + (index + 1) + " of " + quotes.length;
-  quote.textContent = quotes[index];
+  showQuote();
 });
