@@ -24,3 +24,23 @@ h2 {
   padding-bottom: 8px;
 }
 
+header {
+  background-color: white;
+  padding: 16px 20px;
+  border-bottom: 1px solid #e2e6f0;
+}
+
+.chips {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.chips li {
+  background-color: #e8efff;
+  color: #2563eb;
+  padding: 4px 12px;
+  border-radius: 999px;
+}
