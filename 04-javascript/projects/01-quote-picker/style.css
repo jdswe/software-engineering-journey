@@ -17,9 +17,10 @@ body {
 main {
   background-color: var(--color-surface);
   max-width: 480px;
-  margin:0 auto;
+  margin: 0 auto;
   padding: var(--space-md);
   border-radius: var(--radius);
+  text-align: center;
 }
 
 h1 {
