@@ -3,7 +3,7 @@ h1 {
 }
 
 body {
-  font-family: system-ui, sans-serif;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
   background-color: #f5f7fb;
   color: #1c2233;
 }
