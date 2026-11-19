@@ -26,3 +26,34 @@ main {
 h1 {
   color: var(--color-primary);
 }
+
+#quote {
+  font-size: 28px;
+}
+
+button {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+  border: none;
+  padding: 8px 16px;
+  border-radius: var(--radius);
+  font-family: var(--font-main);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--color-text);
+}
+@media (max-width: 600px) {
+  main {
+    padding: 12px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  #quote {
+    font-size: 24px;
+  }
+}
